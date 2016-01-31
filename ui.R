@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(pageWithSidebar(  
-    headerPanel("Signal Reconstruction with the Fourier Theorem"),  
+    headerPanel("Square Wave Reconstruction with the Fourier Theorem"),  
     sidebarPanel( 
         h3('Input parameters'),
         sliderInput('T', 'Select cycle length (period) -- T',value = 1, min = 1, max = 5, step = 0.5), 
